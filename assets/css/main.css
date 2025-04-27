@@ -2115,6 +2115,19 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
+			#header .image.avatar {
+				margin: 0 0 1em 0;
+				width: 8em;
+				height: 8em;
+			}
+
+			#header .image.avatar img {
+				border-radius: 100%;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
 		.image img {
 			border-radius: 0.35em;
 			display: block;
@@ -2161,8 +2174,8 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 200%;
-				height: 200%;
+				width: 100%;
+				height: 100%;
 			}
 
 /* List */
@@ -2661,7 +2674,15 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8em; /* Increase the size (default was 6.25em) */
+			height: 8em; /* Ensure it's a perfect circle */
+		}
+
+		#header .image.avatar img {
+			border-radius: 100%;
+			width: 100%;
+			height: 100%;
+			object-fit: cover; /* Ensures the image scales properly */
 		}
 
 /* Footer */
