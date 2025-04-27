@@ -17,9 +17,9 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>David Hurley</strong>, <br />
+					<h1><strong>David Hurley</strong> <br />
 					Data Scientist<br />
-					<a>Philadelphia area</h1>
+					<a>Philadelphia PA<a></a></h1>
 				</div>
 			</header>
 
@@ -27,17 +27,27 @@
 			<div id="main">
 
 				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About me:.</h2>
-						</header>
-						<p>Recently completed a Masters in Data Science, working on personal projects, and taking on freelance jobs while job searching <br />
-						Data Scientist with 6 years of experience implementing analytics solutions for businesses in both profit and non-profit sectors. Experienced in developing and presenting reports to management that inform business profits.<br />
-						Skills include Python, SQL, R Studio, Tableau, Excel VBA, Salesforce, and Data Visualization</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</section>
+				<section id="one">
+					<header class="major">
+						<h2>About Me</h2>
+					</header>
+					<p>I am a Data Scientist with 6 years of experience implementing analytics solutions for businesses in both profit and non-profit sectors. I have a proven track record of developing and presenting reports to management that inform business profits.</p>
+					<header class="major">
+						<h2>Skills</h2>
+					</header>
+					<ul class="skills-list">
+						<li>Python</li>
+						<li>SQL</li>
+						<li>R Studio</li>
+						<li>Tableau</li>
+						<li>Excel VBA</li>
+						<li>Salesforce</li>
+						<li>Data Visualization</li>
+					</ul>
+					<ul class="actions">
+						<li><a href="Resume.pdf" class="button">Learn More</a></li>
+					</ul>
+				</section>
 
 				<!-- Two -->
 					<section id="two">
@@ -80,40 +90,46 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				<section id="three">
+					<h2>Email Me</h2>
+					<div class="row">
+						<div class="col-8 col-12-small">
+							<form method="post" action="mailto:hurley.david.p@live.com" enctype="text/plain">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="name" id="name" placeholder="Name" required />
 									</div>
-								</form>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="email" id="email" placeholder="Email" required />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+									</div>
+								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>										
-										Philadelphia, PA<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										260-610-6710
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hurely.david.p@live.com</a>
-									</li>
-								</ul>
-							</div>
+							</form>
 						</div>
-					</section>
+						<div class="col-4 col-12-small">
+							<ul class="labeled-icons">
+								<li>
+									<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+									Philadelphia, PA<br />
+									United States
+								</li>
+								<li>
+									<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+									260-610-6710
+								</li>
+								<li>
+									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+									<a href="mailto:hurley.david.p@live.com">hurley.david.p@live.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
 
 				<!-- Four -->
 				<!--
@@ -436,19 +452,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/davidphurley" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/davidphurley/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:hurley.david.p@live.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

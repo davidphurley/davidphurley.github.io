@@ -65,6 +65,23 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    text-align: left;
+}
+
+.skills-table td {
+    padding: 0.5em 1em;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    border-radius: 0.35em;
+}
+
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -2134,7 +2151,13 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 50%;
+			border-radius: 100%;
+			width: 200px; 
+			height: 200px;
+			right: 30px;
+ 			top: 10; 
+			
+			position: relative; 
 		}
 
 			.image.avatar:before {
@@ -2142,8 +2165,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 150%;
-				width: 150%;
+				border-radius: 100%;
+				width: 100%;
 			}
 
 /* List */
