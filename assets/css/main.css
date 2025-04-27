@@ -2152,12 +2152,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			width: 200px; 
-			height: 200px;
-			right: 30px;
- 			top: 10; 
-			
-			position: relative; 
+
 		}
 
 			.image.avatar:before {
@@ -2312,7 +2307,9 @@ input, select, textarea {
 		ul.actions.fit {
 			width: calc(100% + 1em);
 		}
-
+		body {
+			margin-top: 50px; /* Adjust the value as needed */
+		}
 			ul.actions.fit li {
 				-moz-flex-grow: 1;
 				-webkit-flex-grow: 1;
